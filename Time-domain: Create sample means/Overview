@@ -1,0 +1,15 @@
+Credit goes out to my friend and colleague Feifan Chen for this!
+
+With conditioning experiments, conditions may be presented with highly uneven ratios, to prime participants to predict
+the sensation of a given condition. The downside of this is that comparing average ERPs of conditions with a highly uneven
+trial count is tricky. The condition with more trials will have less variance in the average ERP.
+
+To correct for this, we created a distribution of sample means, and then used the mean of this distribution as the average 
+ERP for each participant. 
+
+For example...
+Condition 1 has 200 trials and condition 2 has 50 trials.
+
+Select 50 trials randomly from condition 1, to match the trial count of condition 2. Average these trials to create an 
+average ERP. Repeat this procedure 1,000 times to create a distribution of these permuted means. Then we take the average 
+of the distribution to compare with condition 2.
