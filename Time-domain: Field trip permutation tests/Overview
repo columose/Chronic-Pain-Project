@@ -1,0 +1,4 @@
+This one's pretty simple. We used cluster-based permutation paired/independent samples t-tests to detect within and 
+between group differences across all channels and time-points. The benefit of such a method is that it corrects for
+the family-wise error rate that accumulates across multiple tests. You can read plenty about this from Field Trip
+tutorials.
