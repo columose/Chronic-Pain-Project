@@ -1,0 +1,5 @@
+I used these scripts to perform source localisation of ERPs using Brainstorm toolbox. The toolbox has a GUI, but also provides you with .mat script after performing operations so you can also code the analyses.
+
+I'd definitely recommend saving the links to files in a folder so you can reload them independently of the GUI.
+
+It's a useful toolbox for people, but playing around with the GUI can be time-consuming.
