@@ -1,0 +1,4 @@
+These scripts were just to play around and learn Python. I also wanted to try out MNE to see how it compares to Matlab's
+Field trip. I'll say that MNE is probably a bit less developed than Field Trip, but requires less programming than 
+Field Trip. It took a bit of playing around to get the figures just as I wanted them - especially shading the signficant
+timeframe of the time-series in green.
