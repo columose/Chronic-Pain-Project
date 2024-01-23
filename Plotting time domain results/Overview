@@ -1,0 +1,4 @@
+Significant channel-time points were obtained using cluster-based permutation tests. The output of these scripts is a nice
+topoplot using EEGLAB functions, where significant channels are highlighted in BOLD. The script is nice as it does all the 
+plotting and highlighting dynamically. We also plot a time-series, averaged over the significant channels, where the 
+significant timeframe is shaded in green.
