@@ -26,7 +26,7 @@ Select 50 trials randomly from condition 1, to match the trial count of conditio
 We used cluster-based permutation paired/independent samples t-tests to detect within and between group differences across all channels and time-points. The benefit of such a method is that it corrects forthe family-wise error rate that accumulates across multiple tests. You can read plenty about this from [Field Trip tutorials](https://www.fieldtriptoolbox.org/).
 
 #### Plotting
-Significant channel-time points were obtained using cluster-based permutation tests. The output of these [scripts](Plotting-timedomain-results) is a nice topoplot using EEGLAB functions, where significant channels are highlighted in BOLD. The script is nice as it does all the plotting and highlighting dynamically. We also plot a time-series, averaged over the significant channels, where the significant timeframe is shaded in green.
+Significant channel-time points were obtained using cluster-based permutation tests. The output of these [scripts](Plotting-time-domain-results) is a nice topoplot using EEGLAB functions, where significant channels are highlighted in BOLD. The script is nice as it does all the plotting and highlighting dynamically. We also plot a time-series, averaged over the significant channels, where the significant timeframe is shaded in green.
 
 ### Source localisation
 I performed source localisation of ERPs using [Brainstorm toolbox](https://neuroimage.usc.edu/brainstorm/). The toolbox has a GUI, but also provides you with .mat script after performing operations so you can also code the analyses.
@@ -50,7 +50,7 @@ a nice tweak that decreases file size and computation time dramatically.
 I performed permutation testing to identify statistically significant time-frequency pixels and then outlined
 those pixels on the spectrogram. Another nice idea from [Mike X Cohen!](https://www.youtube.com/watch?v=fAYFtpKwJRQ&list=PLn0OLiymPak1Ch2ce47MqwpIw0x3m6iZ7&index=6)
 ### Plotting
-The [script](Timefrequency-pixel-statistics-and-plotting/TF_phase_Cz_EEGLAB_plot.m) plots significant within-in and between-group differences by countouring significant pixels on the spectrogram. 
+The [script](Time-frequency-pixel-statistics-and-plotting/TF_phase_Cz_EEGLAB_plot.m) plots significant within-in and between-group differences by countouring significant pixels on the spectrogram. 
 
 
 
