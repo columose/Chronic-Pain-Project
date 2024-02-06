@@ -33,7 +33,7 @@ I'd definitely recommend **saving the links** to files in a folder so you can re
 It's a useful toolbox for people, but playing around with the GUI can be time-consuming.
 
 ### MNE time-domain analysis
-I replicated my Field Trip permutation tests in [MNE])(https://mne.tools/stable/index.html#) to get a feel for the toolbox. I would try the toolbox again but have a preference for Field Trip as it's more widely used and has superior documentation.
+I replicated my Field Trip permutation tests in [MNE](https://mne.tools/stable/index.html) to get a feel for the toolbox. I would try the toolbox again but have a preference for Field Trip as it's more widely used and has superior documentation.
 
 ## Time-frequency analysis
 ## Signal decomposition
