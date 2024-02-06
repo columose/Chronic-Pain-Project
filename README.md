@@ -50,7 +50,7 @@ a nice tweak that decreases file size and computation time dramatically.
 I performed permutation testing to identify statistically significant time-frequency pixels and then outlined
 those pixels on the spectrogram. Another nice idea from [Mike X Cohen!](https://www.youtube.com/watch?v=fAYFtpKwJRQ&list=PLn0OLiymPak1Ch2ce47MqwpIw0x3m6iZ7&index=6)
 ### Plotting
-The [script]([Time-frequency pixel statistics and plotting/TF_phase_Cz_EEGLAB_plot.m](https://github.com/columose/Chronic-Pain-Project/blob/e5941e5741be29e28d199885c0165fa33d399a81/Time-frequency%20pixel%20statistics%20and%20plotting/TF_phase_Cz_EEGLAB_plot.m)https://github.com/columose/Chronic-Pain-Project/blob/e5941e5741be29e28d199885c0165fa33d399a81/Time-frequency%20pixel%20statistics%20and%20plotting/TF_phase_Cz_EEGLAB_plot.m) plots significant within-in and between-group differences by countouring significant pixels on the spectrogram. 
+The [script](https://github.com/columose/Chronic-Pain-Project/blob/e5941e5741be29e28d199885c0165fa33d399a81/Time-frequency%20pixel%20statistics%20and%20plotting/TF_phase_Cz_EEGLAB_plot.m) plots significant within-in and between-group differences by countouring significant pixels on the spectrogram. 
 
 
 
