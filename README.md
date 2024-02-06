@@ -26,7 +26,7 @@ Select 50 trials randomly from condition 1, to match the trial count of conditio
 We used cluster-based permutation paired/independent samples t-tests to detect within and between group differences across all channels and time-points. The benefit of such a method is that it corrects forthe family-wise error rate that accumulates across multiple tests. You can read plenty about this from [Field Trip tutorials](https://www.fieldtriptoolbox.org/).
 
 #### Plotting
-Significant channel-time points were obtained using cluster-based permutation tests. The output of these [scripts](Plotting time domain results)) is a nice topoplot using EEGLAB functions, where significant channels are highlighted in BOLD. The script is nice as it does all the plotting and highlighting dynamically. We also plot a time-series, averaged over the significant channels, where the significant timeframe is shaded in green.
+Significant channel-time points were obtained using cluster-based permutation tests. The output of these [scripts](Plotting time domain results) is a nice topoplot using EEGLAB functions, where significant channels are highlighted in BOLD. The script is nice as it does all the plotting and highlighting dynamically. We also plot a time-series, averaged over the significant channels, where the significant timeframe is shaded in green.
 
 ### Source localisation
 I performed source localisation of ERPs using [Brainstorm toolbox](https://neuroimage.usc.edu/brainstorm/). The toolbox has a GUI, but also provides you with .mat script after performing operations so you can also code the analyses.
