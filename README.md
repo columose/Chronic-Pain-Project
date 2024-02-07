@@ -31,7 +31,7 @@ Significant channel-time points were obtained using cluster-based permutation te
 ### Source localisation
 I performed source localisation of ERPs using [Brainstorm toolbox](https://neuroimage.usc.edu/brainstorm/). The toolbox has a GUI, but also provides you with .mat script after performing operations so you can also code the analyses.
 
-I'd definitely recommend **saving the links** to files in a folder so you can reload them independently of the GUI.
+I'd definitely recommend **saving the links** to files in a folder so you can reload them independently of the GUI in a matlab script.
 
 It's a useful toolbox for people, but playing around with the GUI can be time-consuming.
 
