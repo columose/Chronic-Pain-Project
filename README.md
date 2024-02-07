@@ -43,7 +43,7 @@ I replicated my Field Trip permutation tests in [MNE](https://mne.tools/stable/i
 ## Signal decomposition
 I performed time-frequency decomposition of data from a single channel, 'Cz' using an adapted Mike Cohen script.
 The adapted version is nice because it deals with sharp edges during trial concatenation using 'reflection'.
-I also updated the function that I used to perform a transformation of complex numbers to real numbers, 
+I also updated the decomposition function to perform a transformation of complex numbers to real numbers, 
 a nice tweak that decreases file size and computation time dramatically. 
 
 ## Pixel statistics
