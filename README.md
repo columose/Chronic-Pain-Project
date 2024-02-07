@@ -23,7 +23,7 @@ For example...Condition 1 has 200 trials and condition 2 has 50 trials.
 Select 50 trials randomly from condition 1, to match the trial count of condition 2. Average these trials to create an average ERP. Repeat this procedure 1,000 times to create a distribution of these permuted means. Then we take the average of the distribution to compare with condition 2.
 
 ### Field Trip permutation tests
-We used cluster-based permutation paired/independent samples t-tests to detect within and between group differences across all channels and time-points. The benefit of such a method is that it corrects forthe family-wise error rate that accumulates across multiple tests. You can read plenty about this from [Field Trip tutorials](https://www.fieldtriptoolbox.org/).
+We used cluster-based permutation paired/independent samples t-tests to detect within and between group differences across all channels and time-points. The benefit of such a method is that it corrects for the family-wise error rate that accumulates across multiple tests. You can read plenty about this from [Field Trip tutorials](https://www.fieldtriptoolbox.org/tutorial/cluster_permutation_timelock/).
 
 #### Plotting
 Significant channel-time points were obtained using cluster-based permutation tests. The output of these [scripts](https://github.com/columose/Chronic-Pain-Project/tree/3470c2100d5b2961176fd0bac76008701f737c3f/Plotting%20time%20domain%20results) is a nice topoplot using EEGLAB functions, where significant channels are highlighted in BOLD. The script is nice as it does all the plotting and highlighting dynamically. We also plot a time-series, averaged over the significant channels, where the significant timeframe is shaded in green.
