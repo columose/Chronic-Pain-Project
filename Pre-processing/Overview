@@ -1,2 +1,0 @@
-I followed a pretty traditional method of EEG pre-processing. Artifact rejection was done manually in EEGLAB, as my
-pre-processed data, using automatic methods in Field Trip, came out too noisy for my liking. 
