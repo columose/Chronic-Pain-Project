@@ -28,6 +28,8 @@ We used cluster-based permutation paired/independent samples t-tests to detect w
 #### Plotting
 Significant channel-time points were obtained using cluster-based permutation tests. The output of these [scripts](https://github.com/columose/Chronic-Pain-Project/tree/3470c2100d5b2961176fd0bac76008701f737c3f/Plotting%20time%20domain%20results) is a nice topoplot using EEGLAB functions, where significant channels are highlighted in **bold**. The script is nice as it does all the plotting and highlighting dynamically. We also plot a time-series, averaged over the significant channels, where the significant timeframe is shaded in green.
 
+![figure](https://github.com/columose/columose/blob/fc8e6da5bbeacefaaaa72dbfe2470628cfd41bb9/Github%20figures/Oddball%20time-domain.png)
+
 ### Source localisation
 I performed source localisation of ERPs using [Brainstorm toolbox](https://neuroimage.usc.edu/brainstorm/). The toolbox has a GUI, but also provides you with .mat script after performing operations so you can also code the analyses.
 
@@ -50,7 +52,9 @@ a nice tweak that decreases file size and computation time dramatically.
 I performed permutation testing to identify statistically significant time-frequency pixels and then outlined
 those pixels on the spectrogram. Another nice idea from [Mike X Cohen!](https://www.youtube.com/watch?v=fAYFtpKwJRQ&list=PLn0OLiymPak1Ch2ce47MqwpIw0x3m6iZ7&index=6)
 ### Plotting
-The [script](https://github.com/columose/Chronic-Pain-Project/blob/e5941e5741be29e28d199885c0165fa33d399a81/Time-frequency%20pixel%20statistics%20and%20plotting/TF_phase_Cz_EEGLAB_plot.m) plots significant within-in and between-group differences by countouring significant pixels on the spectrogram. 
+The [script](https://github.com/columose/Chronic-Pain-Project/blob/e5941e5741be29e28d199885c0165fa33d399a81/Time-frequency%20pixel%20statistics%20and%20plotting/TF_phase_Cz_EEGLAB_plot.m) plots significant within-in and between-group differences by countouring significant pixels on the spectrogram. If significant pixel-effects appeared to related to an event (e.g. increased phase-locking spanning many time-frequency points), the mean ITPC was calculated for the tf region and added to a MANCOVA to control for age differences.
+
+![figure](https://github.com/columose/columose/blob/fc8e6da5bbeacefaaaa72dbfe2470628cfd41bb9/Github%20figures/Oddball%20time-freq.png)
 
 
 
